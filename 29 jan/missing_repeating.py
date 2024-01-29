@@ -7,21 +7,24 @@
 # Follow Up
 # Can you do this in linear time and constant additional space? 
 
-def find_missing_and_repeating(arr):
-    n = len(arr)
-    expected_sum = n * (n + 1) // 2
-    actual_sum = sum(arr)
-    expected_square_sum = sum(i**2 for i in range(1, n + 1))
-    actual_square_sum = sum(i**2 for i in arr)
+size = int(input("Enter the size of array "))
+myList = []
 
-    missing_number = (expected_sum - actual_sum + actual_square_sum // actual_sum) // 2
-    repeating_number = missing_number + actual_sum - expected_sum
-
-    return missing_number, repeating_number
-
-# Example usage:
-arr = [6, 4, 3, 5, 5, 1]
-missing, repeating = find_missing_and_repeating(arr)
-print("Missing number:", missing)
-print("Repeating number:", repeating)  
+for i in range(0, size):
+    i = int(input())
+    myList.append(i)
+#sort the array first
+myList.sort()
+#iterate through the list to find a  number where the differece between current and next is 0
+repeating = 0
+for i in range(0, len(myList)-1):
+    if myList[i+1] - myList[i] == 0:
+        repeating = myList[i]
+expected_sum = (len(myList)*(len(myList)+1))//2
+actual_sum = 0
+for i in myList:
+    actual_sum = actual_sum + i
+missing = expected_sum - actual_sum + repeating
+print("missing", missing)
+print( " repeating", repeating)
 
