@@ -1,4 +1,4 @@
-# size has to be even 
+# size has to be odd 
 # only one number should be unique
 size = int(input("Enter the number of elements "))
 myList = []
