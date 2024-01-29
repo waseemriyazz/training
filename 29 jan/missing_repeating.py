@@ -26,5 +26,5 @@ for i in myList:
     actual_sum = actual_sum + i
 missing = expected_sum - actual_sum + repeating
 print("missing", missing)
-print( " repeating", repeating)
+print("repeating", repeating)
 
