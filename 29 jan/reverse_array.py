@@ -9,7 +9,7 @@ pos = int(input("Enter the position "))
 j = size-1
 for i in range(pos, size):
     if j>i:
-        myList[i], myList[j]= myList[j], myList[i]
+        myList[i], myList[j] = myList[j], myList[i]
         j= j-1
     else:
         break
