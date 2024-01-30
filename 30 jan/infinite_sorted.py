@@ -24,6 +24,7 @@ the answer can be in between 0 and 2^64-1
 
 
 firstOccurence = int(input("This value is hidden from the user :"))
+
 def binarySearch(key, start , end):
     while start <= end:
         mid = start + (end - start) // 2

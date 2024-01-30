@@ -30,7 +30,7 @@ start , end  = -1 , -1
 for i in range(0 , len(myList)):
     if key == myList[i] and start == -1:
         start = i
-        end = start
+        
     if key == myList[i]:
         end = i
     
