@@ -1,0 +1,33 @@
+1-> create a class of student
+2-> student will have have attributes such as name,  marks for various(3) subjects
+3-> calculate total marks and average for each student for each student object
+4-> store these student objects in a list or tuple or dictionary
+5-> analyse the students_records datatype and extract the top_5 from it
+6-> analyse the top_5 and extract the topper from it 
+7-> take the min and max from the user and pasiing criteria from the user
+
+
+
+
+
+
+
+
+
+
+write a program to analyse student records
+
+1. Take user input for students details and their marks
+2. now analyse marks on the basis of certain thresholds that is minimum/maximum threshold 
+3. find the 1st 5 topper of the batch. the first topper should be rewarded separately 
+4. segregate students after calculating the avg marks in three categories (i) above maximum threshold (ii) between maximum and minimum threshold (iii) below minimum threshold 
+5. the students below minimum threshold would require personal attention so now make a separate list, those who required personal attention.
+6. there is also failing criteria for each subjects if any students fails in any of the subjects put them in to personal attention list
+
+example:
+Rohan has 10 out of 100 in java but have a good avg lets say 75/100 he should still be placed in personal attention list
+
+7. Providing options for the user to choose which analysis to perform.
+8. Handling edge cases, such as invalid inputs
+
+
