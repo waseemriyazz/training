@@ -74,35 +74,35 @@ for student in student_list.values():
     if student.fail == True:
         failed.append(student)
 
-    while 1>0:
-        print()
-        print("Enter 1 to get list of students above max ")
-        print("Enter 2 to get list of students between max and min ")
-        print("Enter 3 to get list of students below max ")
-        print("Enter 4 to get list of students who need special attention ")
-        print("Enter 5 to print the list of students who failed ")
-        print("Enter 6 to exit ")
-        
-        query = int(input("Enter the analysis you want to perform( 1 , 2 , 3 , 4 , 5 , 6 ): "))
+while 1>0:
+    print()
+    print("Enter 1 to get list of students above max ")
+    print("Enter 2 to get list of students between max and min ")
+    print("Enter 3 to get list of students below max ")
+    print("Enter 4 to get list of students who need special attention ")
+    print("Enter 5 to print the list of students who failed ")
+    print("Enter 6 to exit ")
+    
+    query = int(input("Enter the analysis you want to perform( 1 , 2 , 3 , 4 , 5 , 6 ): "))
 
-        if query == 1 :
-            for student in above:
-                print(student)
-        elif query == 2 :
-            for student in between:
-                print(student)
-        elif query == 3 :
-            for student in below:
-                print(student)
-        elif query == 4 :
-            for student in attention:
-                print(student)
-        elif query == 5 :
-            for student in failed:
-                print(student)
-        else: 
-            print("exiting operation . . .")
-            break
+    if query == 1 :
+        for student in above:
+            print(student)
+    elif query == 2 :
+        for student in between:
+            print(student)
+    elif query == 3 :
+        for student in below:
+            print(student)
+    elif query == 4 :
+        for student in attention:
+            print(student)
+    elif query == 5 :
+        for student in failed:
+            print(student)
+    else: 
+        print("exiting operation . . .")
+        break
         
 
     
