@@ -2,7 +2,7 @@
 import csv
 
 # Specify the path to the CSV file
-csv_file_path = "Feb 5/scores.csv"
+csv_file_path = "Feb 5/assigment 1/scores.csv"
 
 # Specify the column indices to read
 column_indices = input("Enter the column indices (comma-separated): ")

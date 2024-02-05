@@ -1,7 +1,7 @@
 # 7.Write a Python program to get the file size of a plain file
 import os 
 
-file_path = 'Feb 5/Questions.txt'
+file_path = 'Feb 5/assigment 1/Questions.txt'
 
 
     # Get the file size

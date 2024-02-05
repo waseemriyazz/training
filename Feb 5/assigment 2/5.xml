@@ -1,0 +1,6 @@
+<root>
+    <child> e childwa hai </child>
+    <child2> e childwa ka bhai hai
+        <subchild> e childwa ka childwa hai </subchild>
+    </child2>
+    </root>

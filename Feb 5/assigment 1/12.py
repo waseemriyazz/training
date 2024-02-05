@@ -2,7 +2,7 @@
 import csv
 
 # Specify the path to the CSV file
-csv_file_path = "Feb 5/test3.csv"
+csv_file_path = "Feb 5/assigment 1/test3.csv"
 
 try:
     # Open the CSV file in read mode

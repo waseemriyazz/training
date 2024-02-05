@@ -1,6 +1,6 @@
 # 10.Write a Python program to read each row from a given csv file and print a list of strings.
 import csv
-csv_file_path = "Feb 5/test.csv"
+csv_file_path = "Feb 5/assigment 1/test.csv"
 
 try:
     # Open the CSV file in read mode
