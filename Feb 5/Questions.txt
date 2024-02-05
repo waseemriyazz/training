@@ -1,0 +1,37 @@
+1. Write a Python script to display the various Date Time formats -
+a) Current date and time
+b) Current year
+c) Month of year
+d) Week number of the year
+e) Weekday of the week
+f) Day of year
+g) Day of the month
+h) Day of week
+
+2.Write a Python program to subtract five days from the current date.
+Sample Date :
+Current Date : 2015-06-22
+5 days before Current Date : 2015-06-17
+
+3.Write a Python program to calculate the number of days between two date times.
+
+4.Write a Python program to read an entire text file.
+
+5.Write a Python program to read first n lines of a file.
+
+6.Write a Python program to read last n lines of a file.
+
+7.Write a Python program to get the file size of a plain file.
+
+8.Write a Python program that takes a text file as input and returns the number of words of a given text file.
+Note: Some words can be separated by a comma with no space.
+
+9.Write a Python program to generate 26 text files named A.txt, B.txt, and so on up to Z.txt.
+
+10.Write a Python program to read each row from a given csv file and print a list of strings.
+
+11.Write a Python program to read a given CSV file having tab delimiter.
+
+12.Write a Python program that reads a CSV file and remove initial spaces, quotes around each entry and the delimiter.
+
+13.Write a Python program to read specific columns of a given CSV file and print the content of the columns.
