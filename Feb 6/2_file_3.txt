@@ -1,0 +1,4 @@
+line 1 of 1st file line 1 of 2nd file
+line 2 of 1st file line 2 of 2nd file
+line 3 of 1st file line 3 of 2nd file
+line 4 of 1st file line 4 of 2nd file
