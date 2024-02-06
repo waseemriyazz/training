@@ -6,10 +6,11 @@ with open('Feb 5/assigment 2/poem.txt', 'r') as file:
 
 word_counts = Counter(words)
 print(Counter.__dir__)
+print(dir())
 
 print(word_counts.get)
 max_occurred_word = max(word_counts, key=word_counts.get)
 
-print(f"The word with the maximum occurrence is: {max_occurred_word}")
+print(f'The word with the maximum occurrence is: {max_occurred_word}')
 
 
