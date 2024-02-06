@@ -19,3 +19,15 @@
 # |-------|----------|-------|
 # |Reliance|22.23|2.25|
 # |Tata Steel|4.39|0.68|
+
+import pandas as pd
+csv_file_name='Feb 5/assigment 2/stocks.csv'
+df=pd.read_csv(csv_file_name)
+df['PE Ratio']=df['Price']/df['Earnings Per Share']
+df['Price to Book Ratio']=df['Price']/df['Book Value']
+output_df = df[['Company Name', 'PE Ratio', 'Price to Book Ratio']]
+file_name='Output.csv'
+output_df.to_csv(file_name,index=False)
+output_df=output_df.drop_duplicates()
+output_df=output_df.dropna
+print(output_df)
