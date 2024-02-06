@@ -1,0 +1,34 @@
+1.Write a Python program to copy the contents of a file to another file
+
+2.Write a Python programto combine each line from first file with the corresponding line in second file.
+
+3.Write a Python program to write 10 random numbers into a file. Read the file and then sort the numbers and then store it to another file.
+
+4.Write a program to read through the mbox-short.txt and
+figure out the distribution by hour of the day for each of the messages.
+You can pull the hour out from the 'From ' line by finding the time
+and then splitting the string a second time using a colon.
+From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
+Once you have accumulated the counts for each hour, print out the counts,
+sorted by hour as shown below. Note that the autograder
+does not have support for the sorted() function.
+
+5.Write a function which count number of lines and number of words in a text. All the files are in the data the folder: a) Read obama_speech.txt file and count number of lines and words b) Read michelle_obama_speech.txt file and count number of lines and words c) Read donald_speech.txt file and count number of lines and words d) Read melina_trump_speech.txt file and count number of lines and words
+
+6.Find the most common words in the English language. Call the name of your function find_most_common_words, it will take two parameters - a string or a file and a positive integer, indicating the number of words. Your function will return an array of tuples in descending order. Check the output
+
+7.Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following: D 100 W 200
+
+D means deposit while W means withdrawal. Suppose the following input is supplied to the program: D 300 D 300 W 200 D 100 Then, the output should be: 500
+
+8.Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the company name of a given email address. Both user names and company names are composed of letters only.
+
+Example: If the following email address is given as input to the program:
+
+john@google.com
+
+Then, the output of the program should be:
+
+google
+
+In case of input data being supplied to the question, it should be assumed to be a console input.
