@@ -7,14 +7,38 @@
 # sorted by hour as shown below. Note that the autograder
 # does not have support for the sorted() function.
 
-with open("Feb 6/mbox-short.txt", "r")as file :
-    lines = file.readlines()
-for line in lines:
+# with open("Feb 6/mbox-short.txt", "r")as file :
+#     lines = file.readlines()
+# for line in lines:
     
-    
-    if line[0:5]=='From ':
+#     dict = {}
+#     if line[0:5]=='From ':
         
-        words = line.split(" ")
+#         words = line.split(" ")
         
-        print(words)
-        
+#         if len(words) >= 6:
+#                 time = words[5]
+#                 hour = time.split(':')[0]
+#                 if hour in dict:
+#                     dict[hour]+=1
+#                 else:
+#                     dict[hour]=1
+
+# for key,value in sorted(dict.items()):
+#     print(key,"--count-->",value)
+
+dict={}
+with open("Feb 6/mbox-short.txt","r") as f:
+
+    for line in f:
+        if line.startswith("From "):
+            parts=line.split()
+#             print(parts)
+            hour=parts[5].split(":")[0]
+            if hour in dict:
+                dict[hour]+=1
+            else:
+                dict[hour]=1
+
+for key,value in sorted(dict.items()):
+    print(key,"--count-->",value)
