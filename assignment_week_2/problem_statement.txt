@@ -1,0 +1,33 @@
+# *Weekly Assignment: Quiz Game*
+
+# Problem Statement:
+# Create a simple command-line quiz game that reads questions from a file, allows users to answer them, and provides a score at the end. The questions and answers should be stored in a text file.
+
+# Question Class:
+
+# Create a Question class with attributes like question_text and correct_answer. Include methods to initialize the question and check if a provided answer is correct.
+
+# File Handling:
+
+# Use a text file (quiz_questions.txt) to store questions and answers. Each line in the file represents a question with the format: <question_text>|<correct_answer>.
+
+# Read Questions:
+
+# Implement a function to read questions from the file and create instances of the Question class for each question.
+
+# Quiz Game Loop:
+
+# Create a loop that presents each question to the user, allows them to input their answer, checks if it's correct, and keeps track of their score.
+
+# Score Calculation:
+
+# Calculate and display the user's score at the end of the quiz.
+
+# Error Handling:
+
+# Implement error handling to handle cases where the file is not found or if there is an issue reading its content.
+
+# Negative Marking:
+
+# If there are 3 wrong answers in the quiz, 1 mark will be deducted.
+# There will be no negative marking for one-word answers.

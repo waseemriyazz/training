@@ -1,0 +1,29 @@
+_________are words that a programming language has set aside for its own use ?/Control words/Control structures/Reserved words/Reserved keys|Reserved words
+Which of the following software could assist someone who cannot use their hands for computer input ?/Video conferencing/Speech recognition/Audio digitizer/Synthesizer|Speech recognition
+__________ is the process of finding errors in software code ?/Hacking/Compiling/Testing/Debugging|Debugging
+A series of instructions that tells a computer what to do and how to do it is called a ________ ?/program/command/user response/processor|program
+A __________ shares hardware, software, and data among authorized users ?/network/protocol/hyperlink/transmitter|network
+The basic computer processing cycle consists of _______ ?/input, processing and output/systems and application/data, information and applications/hardware, software and storage|input, processing and output
+System software ?/allows the user to diagnose and troubleshoot the device/is a programming language/is part of a productivity suite/helps the computer manage internal resources|helps the computer manage internal resources
+_____ is the process of carrying out commands ?/Fetching/Storing/Executing/Decoding|Executing
+This can be another word for program ?/software/disk/floppy/hardware|software
+Information that comes from an external source and fed into computer software is called ?/Output/Input/Throughput/Reports|Input
+Which of the following information systems focuses on making manufacturing processes more efficient and of higher quality ?/Computer-aided manufacturing/Computer-integrated manufacturing/Computer-aided software engineering/Computer-aided system engineering|Computer-aided manufacturing
+For seeing the output, you use ?/Monitor/Keyboard/Mouse/Scanner|Answer: Monitor
+Computer programs are also known as __________ ?/operating systems/documents/peripherals/applications|applications
+A (n) –– is a program that makes the computer easier to use ?/utility/application/operating system/network|operating system
+The person who writes and tests computer programs is called a ?/programmer/computer scientist/software engineer/project developer|programmer
+What are two things you can never eat for breakfast?|Lunch and Dinner
+What is always coming but never arrives?|Tomorrow
+What gets wetter the more it dries?|A towel
+What can be broken but never held?|A promise
+What word is spelled incorrectly in every single dictionary?|Incorrectly
+What is it that lives if it is fed, and dies if you give it a drink?|Fire
+What never asks a question but gets answered all the time?|Your cellphone
+What word would you use to describe a man who does not have all his fingers on one hand?|Normal, because people usually have half their fingers on one hand.
+What goes up but never ever comes down?|Your age
+What can one catch that is not thrown?|A cold
+If you have one, you want to share it. But once you share it, you do not have it. What is it?|A secret
+What starts with “e” and ends with “e” but only has one letter in it?|An envelope
+If a plane crashes on the border between the United States and Canada, where do they bury the survivors?|Survivors aren’t buried!
+How can a girl go 25 days without sleep?|She sleeps at night

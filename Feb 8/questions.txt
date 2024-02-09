@@ -1,0 +1,17 @@
+1.Write a Python function that takes two parameters, numerator and denominator, and returns the result of the division. However, handle the case where the denominator is zero by using a try-except block. In the except block, print an error message and return None
+
+2.Create a function that reads the content of a file. Use a try-except block to handle the case where the file does not exist. In the except block, print an error message and return an empty string.
+
+3.Define a custom exception class called InvalidInputError. Write a function that takes user input (an integer) and raises this custom exception if the input is not a positive integer. Use a try-except block to catch this custom exception and print an error message.
+
+4.Create a function that validates a user's password. The password must satisfy the following conditions:
+
+At least 8 characters long
+Contains at least one uppercase letter
+Contains at least one digit
+
+5.URL Parsing
+Create a function that parses a URL and extracts the protocol (http or https), domain, and path. Define a custom exception InvalidURLError and raise it if the URL does not start with "http://" or "https://".
+
+6.Custom Assertion
+Write a function that accepts a number as input and uses a custom exception AssertionError to raise an error if the number is negative. Use an assert statement to check this condition.
