@@ -45,7 +45,7 @@ for data in raw_data:
             options.append(question_options[i])
         except:
             break
-    print(correct_answer)
+    
 
     if len(options) == 0:
         penalty = 0
@@ -64,24 +64,24 @@ score = 0
 
 # getting one question at a time from the list and prompting it to the user
 
-for data in question_object_list:
+for question in question_object_list:
 
     
-    print(data.question_text)
-    for options in data.options:
+    print(question.question_text)
+    for options in question.options:
         print(options)
     
     
     user_answer = input("Answer the above question : ")
 
-    if user_answer.lower() == data.correct_answer.lower():
+    if user_answer.lower() == question.correct_answer.lower():
         print("You answered correctly")
-        score += 1
+        score = score + int(question.points)
     else:
         print("You answered incorrectly")
-        score = score - float(data.penalty)
+        score = score - float(question.penalty)
     
-
+print("GAME OVER")
 print(f"You scored {score}")
 
 
