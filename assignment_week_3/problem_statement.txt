@@ -1,0 +1,22 @@
+Tic Tac Toe Game in Python
+
+Create a Python program to implement a two-player Tic Tac Toe game. The game should be played in the console, and the players will take turns to make their moves.
+
+Requirements:
+
+Player Names:
+Allow players to enter their names at the beginning of the game instead of using generic 'Player 1' and 'Player 2'. Display the players' names throughout the game.
+
+Board Size Selection:
+Allow users to choose the size of the game board (e.g., 4x4, 5x5) instead of the standard 3x3. Make sure to adapt the win condition check accordingly.
+
+Dynamic Symbols:
+Let players choose their own symbols or even use non-traditional symbols. For example, they could play with letters, or any other characters.
+
+Game Statistics:
+Keep track of statistics such as the number of games played, wins for each player, and draws. Display these statistics at the end of each game or in a separate menu.
+
+The game should check for valid moves and display an error message if a player attempts to make an invalid move (e.g., choosing a cell that is already occupied).
+The game should check for a win condition after each move to determine if a player has won.
+If the board is filled with no winner, the game should declare a draw.
+After each game, ask players if they want to play again.
