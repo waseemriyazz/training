@@ -1,0 +1,81 @@
+Write a NumPy program to get the numpy version and show numpy build configuration.
+
+Write a NumPy program to get help on the add function.
+
+Write a NumPy program to test whether none of the elements of a given array is zero.
+
+Write a NumPy program to test if any of the elements of a given array is non-zero. Go to the editor
+
+Write a NumPy program to test a given array element-wise for finiteness (not infinity or not a Number).
+
+Write a NumPy program to test element-wise for positive or negative infinity.
+
+Write a NumPy program to test element-wise for NaN of a given array. Go to the editor
+
+Write a NumPy program to test element-wise for complex number, real number of a given array. Also test if a given number is a scalar type or not.
+
+Write a NumPy program to test if two arrays are element-wise equal within a tolerance.
+
+Write a NumPy program to create an element-wise comparison (greater, greater_equal, less and less_equal) of two given arrays.
+
+Write a NumPy program to create an element-wise comparison (equal, equal within a tolerance) of two given arrays.
+
+Write a NumPy program to create an array with the values 1, 7, 13, 105 and determine the size of the memory occupied by the array.
+
+Write a NumPy program to create an array of 10 zeros,10 ones, 10 fives.
+
+Write a NumPy program to create an array of the integers from 30 to70.
+
+Write a NumPy program to create an array of all the even integers from 30 to 70.
+
+Write a NumPy program to create a 3x3 identity matrix.
+
+Write a NumPy program to generate a random number between 0 and 1.
+
+Write a NumPy program to generate an array of 15 random numbers from a standard normal distribution.
+
+Write a NumPy program to create a vector with values ranging from 15 to 55 and print all values except the first and last.
+
+Write a NumPy program to create a 3X4 array using and iterate over it.
+
+Write a NumPy program to create a vector of length 10 with values evenly distributed between 5 and 50.
+
+Write a NumPy program to create a vector with values from 0 to 20 and change the sign of the numbers in the range from 9 to 15.
+
+Write a NumPy program to create a vector of length 5 filled with arbitrary integers from 0 to 10.
+
+Write a NumPy program to multiply the values of two given vectors.
+
+Write a NumPy program to create a 3x4 matrix filled with values from 10 to 21.
+
+Write a NumPy program to find the number of rows and columns of a given matrix.
+
+Write a NumPy program to create a 3x3 identity matrix, i.e. diagonal elements are 1, the rest are 0.
+
+Write a NumPy program to create a 10x10 matrix, in which the elements on the borders will be equal to 1, and inside 0.
+
+Write a NumPy program to create a 5x5 zero matrix with elements on the main diagonal equal to 1, 2, 3, 4, 5.
+
+Write a NumPy program to create an 4x4 matrix in which 0 and 1 are staggered, with zeros on the main diagonal.
+
+Write a NumPy program to create a 3x3x3 array filled with arbitrary values.
+
+Write a NumPy program to compute sum of all elements, sum of each column and sum of each row of an given array.
+
+Write a NumPy program to compute the inner product of two given vectors.
+
+Write a NumPy program to add a vector to each row of a given matrix.
+
+Write a NumPy program to save a given array to a binary file .
+
+Write a NumPy program to save two given arrays into a single file in compressed format (.npz format) and load it.
+
+Write a NumPy program to save a given array to a text file and load it.
+
+Write a NumPy program to convert a given array into bytes, and load it as array.
+
+Write a NumPy program to convert a given array into a list and then convert it into a list again.
+
+Write a NumPy program to compute the x and y coordinates for points on a sine curve and plot the points using matplotlib.
+
+Write a NumPy program to convert numpy dtypes to native python types.

@@ -1,0 +1,50 @@
+Problem statment
+The content, tone, and format of job bulletins can influence the quality of the applicant pool. Overly-specific job requirements may discourage diversity. The Los Angeles Mayor’s Office wants to reimagine the city’s job bulletins by using text analysis to identify needed improvements, in order to achive this use the daatset in the relative diretcotry ./Datasets/la_jobs.csv, and this is the decomentation for the useful columns you should use:
+
+FILE_NAME: The bulletins file name.
+JOB_CLASS_TITLE: Job title.
+JOB_CLASS_NO: Job number.
+JOB_DUTIES: The duties of this job.
+EDUCATION_YEARS: Number of education yeras needed to apply for this job.
+SCHOOL_TYPE: The type of school you need to study in.
+EDUCATION_MAJOR: The eductaion major you study in this school.
+EXPERIENCE_LENGTH: The number of experience years needed to apply for this job.
+FULL_TIME_PART_TIME: If the job is full time or part time or both.
+EXP_JOB_CLASS_TITLE: The title of the job you must have experience in before applying in this job.
+COURSE_COUNT: Number of courses needed to apply for this job.
+COURSE_LENGTH: The course length in years or months.
+COURSE_SUBJECT: The course subject tha is needed to be accepted in this job.
+DRIVERS_LICENSE_REQ: Is driver license required or not for this job.
+EXAM_TYPE: Type of exams neededin the hiring process.
+ENTRY_SALARY: Salary range in this job.
+OPEN_DATE: Date at it the job bulliten got open.
+REQUIREMENT_SET_TEXT: The requirments set need for this job in points.
+The goal is to answer the following questions-
+
+-Impute / Replace Missing Values with median because The median is usually preferred with outliers than mean
+-Replace missing values in SCHOOL_TYPE with the most frequent value
+-change type of OPEN_DATE column
+
+Q1:
+A non-experienced job seeker wants to know what is the best job for him?
+
+Q2:
+A concerned parents contacts you to tell them if there is a spicific school type that would guaranteed for their child a good future if you can tell, and which is it ?
+
+Q3:
+What the best time in the year to be ready for a job applying in any experience level?
+
+Q4:
+Is experience more important than educational level?
+
+Q5:
+Which fresh grade job that will guarantee many job offers in the future for him?
+
+Q6:
+"The City of Los Angeles does not discriminate on the basis of race, religion, national origin, sex, age, marital status, sexual orientation, gender identity, gender expression, disability, creed, color, ancestry, medical condition (cancer), or Acquired Immune Deficiency Syndrome.
+
+AN EQUAL EMPLOYMENT OPPORTUNITY EMPLOYER "
+
+The above statment is qouted from one of the job descriptions.
+
+Based on the jobs requirments column above do you think that LA governate may bais a little for men over women or the applicant marital status for example may effect his chance to gain the job?
