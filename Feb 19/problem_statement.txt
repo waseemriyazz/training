@@ -1,0 +1,68 @@
+Python pandas Practice Problems - UC Berkeley MIDS notebook
+
+Importing Data and Making a DataFrame
+The statsmodels package (installed in the code cell above) includes built-in datasets. Execute the code below to download data from the American National Election Studies of 1996 and print a detailed description of the schema.
+
+The next cell extracts the Dataset object from the submodule and saves the DataFrame to the variable df. In the questions that follow, use df when referencing the dataset.
+
+# Import statements go here
+
+import pandas as pd
+import statsmodels.api as sm
+import numpy as np
+
+anes96 = sm.datasets.anes96
+print(anes96.NOTE)
+
+dataset_anes96 = anes96.load_pandas()
+df = dataset_anes96.data
+
+
+Q1DataFrame Basic Properties Exercise
+Our DataFrame (df) contains data on registered voters in the United States, including demographic information and political preference. 
+Using pandas, print the first 5 rows of the DataFrame to get a sense of what the data looks like. Next, answer the following questions:
+
+How many observations are in the DataFrame?
+How many variables are measured (how many columns)?
+What is the age of the youngest person in the data? The oldest?
+How many days a week does the average respondent watch TV news (round to the nearest tenth)?
+Check for missing values. Are there any?
+
+
+Q2Data Processing Exercise
+We want to adjust the dataset for our use. Do the following:
+
+Rename the educ column education.
+Create a new column called party based on each respondent's answer to PID. party should equal Democrat if the respondent selected either Strong Democrat or Weak Democrat. party will equal Republican if the respondent selected Strong or Weak Republican for PID and Independent if they selected anything else.
+Create a new column called age_group that buckets respondents into the following categories based on their age: 18-24, 25-34, 35-44, 45-54, 55-64, and 65 and over.
+
+Q3. Filtering Data Exercise
+Use the filtering method to find all the respondents who have the impression that Bill Clinton is moderate or conservative (ClinLR equals 4 or higher). How many respondents are in this subset?
+
+Among these respondents, how many have a household income less than $50,000 and attended at least some college?
+
+4. Calculating From Data Exercise
+For each of the below match-ups, choose the group that is more likely to vote for Bill Clinton. You can calculate this using the percentage of each group that intends to vote for Clinton (vote).
+
+Another way to think about this: Given that a respondent is a Democrat, there is a ____ percent chance they will vote for Clinton. How does this value change if the respondent is a Republican?
+
+Which match-up was the closest? Which had the biggest difference?
+
+Democrats or Republicans
+People younger than 44 or People 44 and older
+People who watch TV news at least 6 days a week or People who watch TV news less than 3 days a week
+People who live somewhere with a population greater than the average respondent or People who live in a place with a population equal to or less than the average respondent
+
+5. Grouping Data Exercise
+Use the groupby() method to bucket respondents by age_group. Which age group is the most conservative? Which watches TV news the least?
+
+Next, calculate 5 percentile groups based on income. Group the dataset by these percentiles. Which income bracket is the most liberal? Which is the most conservative? The oldest? Highest educated?
+
+6. Voting Across the Aisle
+We are interested in learning more about respondents who's political views differ strongly from the candidate they expect to vote for. Using selfLR, vote, ClinLR, and DoleLR, work through the following questions. Your interpretation may differ from the answer key.
+
+What is the largest recorded difference between a respondent's political leaning and their impression of their intended candidate's political leaning?
+How many respondents exhibit a difference of that magnitude?
+Make a separate DataFrame called sway that only includes voters who exhibit a difference greater than |3|.
+Among those in sway, are respondents more likely to be voting for a candidate more conservative or more liberal than their own political leaning?
+In sway, which candidate is the more popular choice?
