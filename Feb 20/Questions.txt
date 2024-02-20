@@ -1,0 +1,53 @@
+Data Analisys with Pandas 
+
+SF Salaries 
+Welcome to a quick exercise for you to practice your pandas skills! We will be using the SF Salaries Dataset Just follow along and complete the tasks outlined in bold below. The tasks will get harder and harder as you go along.
+
+Q1:What is the average BasePay ?
+A: 66325.44884050643
+
+Q2: What is the highest amount of OvertimePay in the dataset ?
+A:245131.88
+
+Q3:What is the job title of JOSEPH DRISCOLL ? Note: Use all caps, otherwise you may get an answer that doesn't match up (there is also a lowercase Joseph Driscoll). 
+A: 24    CAPTAIN, FIRE SUPPRESSION
+
+Q4: How much does JOSEPH DRISCOLL make (including benefits)?
+A: 24    270324.91
+
+Q5: What is the name of highest paid person (including benefits)?
+A:
+
+Q6: What is the name of lowest paid person (including benefits)? Do you notice something strange about how much he or she is paid? 
+Note: with full details
+A: 148653
+
+Q7:What was the average (mean) BasePay of all employees per year? (2011-2014) ? 
+A:  Year
+2011    63595.956517
+2012    65436.406857
+2013    69630.030216
+2014    66564.421924
+Name: BasePay, dtype: float64
+
+Q8: How many unique job titles are there?
+A:2159
+
+Q9:What are the top 5 most common jobs?
+A: Transit Operator                7036
+Special Nurse                   4389
+Registered Nurse                3736
+Public Svc Aide-Public Works    2518
+Police Officer 3                2421
+
+Q10:How many Job Titles were represented by only one person in 2013? (e.g. Job Titles with only one occurence in 2013?)
+A: 202
+
+Q11:How many people have the word Chief in their job title? (This is pretty tricky)
+A:627
+
+Q12: Bonus: Is there a correlation between length of the Job Title string and Salary? 
+A: 
+			TotalPayBenefits	title_len
+TotalPayBenefits	1.000000		-0.036878
+title_len		-0.036878		1.000000
